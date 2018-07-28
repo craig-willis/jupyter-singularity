@@ -3,6 +3,8 @@
 Simple example environment that supports running Singularity in Jupyter. 
 Based on discussion in https://gitter.im/jupyterhub/jupyterhub and inspired by https://github.com/mjstealey/singularity-in-docker/.
 
+Caveats:
+* Tested on Kubernetes 1.9.8 running on OpenStack (SDSC Cloud) using ephemeral storage only.
 
 ## Docker
 To run in Docker:
